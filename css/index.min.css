@@ -2163,11 +2163,23 @@ html[dir="rtl"] #scrollTrigger {
 
 .services_list-item .wrapper .title {
     margin: 20px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    -webkit-box-direction: normal;
 }
 
 .services_list-item .wrapper .description {
     margin-bottom: 40px;
     color: #202c38;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    -webkit-box-direction: normal;
 }
 
 @media screen and (min-width: 567.98px) {
@@ -2256,6 +2268,14 @@ html[dir="rtl"] #scrollTrigger {
     -o-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
     padding: 30px;
+}
+.features_card .wrapper .features_card-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    -webkit-box-direction: normal;
 }
 
 .features_card .wrapper:hover {
