@@ -8,6 +8,7 @@
         <link rel="stylesheet preload" as="style" href="css/icomoon.css">
         <link rel="stylesheet preload" as="style" href="css/libs.min.css">
         <link rel="stylesheet" href="css/index.min.css">
+        <link rel="icon" type="image/svg" href="/svg/logo.svg">
     </head>
     <body>
         <header class="header" data-page="home" data-page-parent="home">
@@ -128,57 +129,6 @@
                                 <span class="nav-item_text">Contacts</span>
                             </a>
                         </li>
-                        <li class="header_nav-list_item dropdown">
-                            <a
-                                class="nav-link nav-item dropdown-toggle"
-                                href="#"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#pagesMenu"
-                                data-trigger="dropdown"
-                                data-page-parent="pages"
-                                aria-expanded="false"
-                                aria-controls="pagesMenu"
-                            >
-                                <span class="nav-item_text">Pages</span>
-                                <span class="icon icon-chevron_right"></span>
-                            </a>
-                            <div class="dropdown-menu collapse" id="pagesMenu">
-                                <ul class="dropdown-list">
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="faq"
-                                            data-page-parent="pages"
-                                            href="faq.html"
-                                        >FAQ</a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="gallery-grid"
-                                            data-page-parent="pages"
-                                            href="gallery-grid.html"
-                                        >Gallery grid</a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="gallery-masonry"
-                                            data-page-parent="pages"
-                                            href="gallery-masonry.html"
-                                        >Gallery masonry</a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="error"
-                                            data-page-parent="pages"
-                                            href="404.html"
-                                        >404</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
                     </ul>
                 </nav>
                 <button
@@ -233,11 +183,11 @@
                                 <span class="label">Projects / Year</span>
                             </div>
                             <div class="numbers_group">
-                                <h2 class="countNum number" data-separator="." data-value="25698">0</h2>
+                                <h2 class="countNum number" data-suffix="+" data-value="25">0</h2>
                                 <span class="label">
                                     Lakhs
                                     <br>
-                                    turnover in 2020
+                                    turnover in 2023
                                 </span>
                             </div>
                         </div>
@@ -638,7 +588,7 @@
                             </h2>
                         </div>
                         <form
-                            action=""
+                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScNEZdItBmPEYtMxQMOj4DaB2iiWuHBP_cy4PNlG7XPaflU3Q/formResponse"
                             class="contact_form-form contact-form d-flex flex-wrap justify-content-between"
                             method="POST"
                             name="feedbackForm"
@@ -646,8 +596,8 @@
                         >
                             <input
                                 class="contact-form_field contact-form_field--half field required"
-                                name="feedbackName"
-                                id="feedbackName"
+                                name="entry.1102373504"
+                                id="entry.1102373504"
                                 type="text"
                                 placeholder="Full name"
                             >
@@ -655,23 +605,23 @@
                                 class="contact-form_field contact-form_field--half field required"
                                 data-type="tel"
                                 type="text"
-                                name="feedbackTel"
-                                id="feedbackTel"
+                                name="entry.1471337889"
+                                id="entry.1471337889"
                                 placeholder="Phone"
                             >
                             <input
                                 class="contact-form_field field required"
                                 data-type="email"
                                 type="text"
-                                name="feedbackEmail"
-                                id="feedbackEmail"
+                                name="entry.1214489299"
+                                id="entry.1214489299"
                                 placeholder="Email Address"
                             >
                             <textarea
                                 class="contact-form_field field required"
                                 data-type="message"
-                                name="feedbackMessage"
-                                id="feedbackMessage"
+                                name="entry.1482497088"
+                                id="entry.1482497088"
                                 placeholder="Message"
                             ></textarea>
                             <button type="submit" class="contact-form_btn btn">Send message</button>
@@ -805,7 +755,11 @@
                 </div>
                 <div class="footer_secondary">
                     <p class="footer_secondary-copyright">
-                        <span>Made by Arraysoft Technologies © Flora Enterprise</span>
+                        <span>
+                            Made by Arraysoft Technologies
+                            <br>
+                            © Flora Enterprise
+                        </span>
                         <span>
                             All rights reserved Copyrights
                             <span id="currentYear"></span>
